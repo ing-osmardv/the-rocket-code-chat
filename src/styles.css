@@ -1,0 +1,97 @@
+body {
+  background: #e9e9e9;
+  color: #9a9a9a;
+  font: 100%/1.5em "Droid Sans", sans-serif;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+#live-chat {
+  bottom: 0;
+  font-size: 12px;
+  right: 24px;
+  position: fixed;
+  width: 325px;
+}
+
+#live-chat header {
+  background: #f174dc;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 16px 24px;
+}
+
+#live-chat header .icon {
+  float: right;
+}
+
+#live-chat input {
+  border: 1px solid #ccc;
+  background-color: transparent;
+  border-radius: 3px;
+  padding: 8px;
+  align-self: center;
+  margin: 3px;
+}
+
+.chat {
+  background: #fff;
+}
+
+.chat-history {
+  height: 300px;
+  padding: 8px 24px;
+  overflow-y: scroll;
+}
+
+.chat-message {
+  margin: 16px 0;
+}
+
+.chat-message img {
+  border-radius: 50%;
+  float: left;
+}
+
+.chat-message-content {
+  margin-left: 50px;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.chat-message-answer-content {
+  margin-left: 5px;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #f174dc;
+  color: black;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  width: 100%;
+  text-align: center;
+  color: green;
+}
+
+#live-chat button {
+  width: 100%;
+  border: 0;
+  background: #f74083;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+}
+
+.chat-message-answers-content {
+  margin-top: 15px;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #f174dc;
+  color: black;
+}
